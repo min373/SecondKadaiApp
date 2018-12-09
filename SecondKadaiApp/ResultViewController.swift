@@ -21,9 +21,9 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         //非オプショナル型パターン①
-        //label.text = "こんにちは\(sendtext)です"
+        //label.text = "こんにちは、\(sendtext)です"
         //オプショナル型なので強制的アンラップ法でOptional()を外すパターン②
-        label.text = "こんにちは\(sendtext!)です"
+        label.text = "こんにちは、\(sendtext!)です"
 
     }
 

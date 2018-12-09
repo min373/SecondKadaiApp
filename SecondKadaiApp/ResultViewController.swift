@@ -23,7 +23,7 @@ class ResultViewController: UIViewController {
         //非オプショナル型パターン①
         //label.text = "こんにちは、\(sendtext)です"
         //オプショナル型なので強制的アンラップ法でOptional()を外すパターン②
-        label.text = "こんにちは、\(sendtext!)です"
+        label.text = "こんにちは、\(sendtext!)さん"
 
     }
 
